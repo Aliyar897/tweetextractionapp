@@ -8,7 +8,7 @@ def extractTweet(request):
     tweet_count = request.GET.get('tweet_count')
 
     auth = tweepy.OAuth1UserHandler(
-    "pEoRlOW5Gy8vHVKtef4QSqw4v", "uLKAFCvoifze0xAs3XmO3dxYyU8ImNQ30hjL0IKlgfaJZGWPYu",
+    "xxxxxxx", "xxxxxxxxx",
     "2930663149-A15pkVJRmBy6x7eZid3AdMr6mA7iG3OorW4to1j", "0l0BkcPAkjgJhom8JUPNJvXGFVepbe8SNjSwXF9GvwRk5"
     )
     api = tweepy.API(auth)
